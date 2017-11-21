@@ -17,3 +17,9 @@ html {
   border-width: 1rem;
   border-color: #785439;
 }
+
+.button {
+  background-color: #785439;
+  padding: .4em .75em .5em;
+  color: #f0eee8;
+}
