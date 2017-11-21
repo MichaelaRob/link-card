@@ -1,6 +1,13 @@
 html {
   box-sizing: border-box;
   font-family: Gerogia, serif;
+  box-sizing: border-box;
+  background-color: #f0eee8;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
