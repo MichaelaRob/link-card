@@ -4,6 +4,7 @@ html {
   box-sizing: border-box;
   background-color: #f0eee8;
   line-height: 1.5;
+  color: #512200;
 }
 
 *, *::before, *::after {
@@ -11,26 +12,42 @@ html {
 }
 
 .link-card {
-  color: #512200;
   background-color: #dcd4cd;
   padding: 1rem;
-  border-width: 1rem;
-  border-color: #785439;
+  border-width: 2px;
+  border-radius: 3px;
+  border-color: #9a816d;
+  border-style: solid;
 }
 
 h2 {
   font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  margin-top: 0;
+  font-size: 1.5rem;
 }
 
 .button {
+  font-family: 'Dosis', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.125rem;
   background-color: #785439;
   padding: .4em .75em .5em;
   color: #f0eee8;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.card-button {
+  text-align: center;
 }
 
 dd {
   display: inline-block;
   margin-left: 0;
+  font-style: italic;
+  float: right;
 }
 
 dt {
