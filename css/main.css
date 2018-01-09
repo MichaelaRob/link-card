@@ -51,6 +51,10 @@ hr {
   border-radius: 8px;
 }
 
+p {
+  margin-top: .5rem;
+}
+
 .card-button {
   text-align: center;
 }
