@@ -20,11 +20,21 @@ html {
   border-style: solid;
 }
 
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
 h2 {
   font-family: 'Dosis', sans-serif;
   font-weight: bold;
   margin-top: 0;
   font-size: 1.5rem;
+}
+
+hr {
+  border-style: solid;
+  margin: 0 0 1rem;
+  border-color: #9a816d;
 }
 
 .button {
