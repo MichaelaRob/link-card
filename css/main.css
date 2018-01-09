@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Gerogia, serif;
+  font-family: Georgia, serif;
   box-sizing: border-box;
   background-color: #f0eee8;
   line-height: 1.5;
@@ -18,8 +18,22 @@ html {
   border-color: #785439;
 }
 
+h2 {
+  font-family: 'Dosis', sans-serif;
+}
+
 .button {
   background-color: #785439;
   padding: .4em .75em .5em;
   color: #f0eee8;
+}
+
+dd {
+  display: inline-block;
+  margin-left: 0;
+}
+
+dt {
+  display: inline-block;
+  margin-top: 0;
 }
